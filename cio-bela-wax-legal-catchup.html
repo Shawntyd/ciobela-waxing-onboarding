@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Cio Bela — Wax Artist Legal Agreements Catch-Up</title>
+<title>Cio Bela — Wax Artist Legal Agreements</title>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 <style>
@@ -137,9 +137,9 @@
 
   <div id="form-wrap">
     <div class="page-header">
-      <div class="page-tag">Required Catch-Up</div>
-      <h1 class="page-title">Legal Agreements<br><em>You Missed</em></h1>
-      <p class="page-desc">When you completed your onboarding, this section didn't exist yet in the system. These five agreements are a required part of every Cio Bela artist's onboarding — please read and sign below to bring your file up to date.</p>
+      <div class="page-tag">Documents 01–05</div>
+      <h1 class="page-title">Legal<br><em>Agreements</em></h1>
+      <p class="page-desc">These five agreements are a required part of your Cio Bela onboarding. Please read each one carefully, then confirm your acceptance and sign below.</p>
     </div>
 
     <div class="field-group">
@@ -322,7 +322,7 @@
 
   <div class="success-screen" id="success">
     <div class="success-icon">✓</div>
-    <h2 class="success-title">All Caught Up —<br><em>thank you!</em></h2>
+    <h2 class="success-title">Agreements Signed —<br><em>thank you!</em></h2>
     <p class="success-desc">Your five agreements have been signed and your PDF has been downloaded to your device.</p>
     <div class="success-note">
       <strong style="font-family:'Cormorant Garamond',serif; font-size:15px; display:block; margin-bottom:6px;">One last step —</strong>
@@ -428,10 +428,10 @@
 
       doc.setFillColor(...gold); doc.rect(0,0,W,8,'F');
       doc.setFontSize(7); doc.setTextColor(255,255,255); doc.setFont('helvetica','normal');
-      doc.text('CIO BELA SALONS  —  LEGAL AGREEMENTS CATCH-UP (WAX)', M, 5.5);
+      doc.text('CIO BELA SALONS  —  LEGAL AGREEMENTS (WAX)', M, 5.5);
       y=24;
       doc.setFontSize(20); doc.setTextColor(...ink); doc.setFont('helvetica','bold');
-      doc.text('Legal Agreements Catch-Up', M, y); y+=8;
+      doc.text('Legal Agreements', M, y); y+=8;
       doc.setFontSize(9); doc.setTextColor(...mid); doc.setFont('helvetica','normal');
       doc.text('Electronically signed on ' + sigDate, M, y); y+=12;
 
@@ -473,7 +473,7 @@
         doc.setPage(i);
         doc.setFillColor(245,240,232); doc.rect(0,287,W,10,'F');
         doc.setFontSize(6); doc.setTextColor(...mid);
-        doc.text('Cio Bela Salons  —  Confidential Legal Agreements Catch-Up', M, 292);
+        doc.text('Cio Bela Salons  —  Confidential Legal Agreements Document', M, 292);
         doc.text('Page ' + i + ' of ' + pc, W-M, 292, { align:'right' });
       }
 
